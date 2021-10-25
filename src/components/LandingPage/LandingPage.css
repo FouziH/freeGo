@@ -1,0 +1,26 @@
+.hazard-card {
+  cursor: pointer;
+}
+
+.Hazard-Genre{
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.threat{
+  font-size: 14px;
+}
+
+.threat span {
+  color: darkcyan;
+}
+
+.threatLevel span{
+  color: darkcyan;
+}
+
+i{
+  color: darkcyan;
+}
