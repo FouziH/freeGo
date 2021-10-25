@@ -1,0 +1,30 @@
+.navbar {
+  background: white;
+  box-shadow: 0 0 0.625rem rgb(0 0 0 / 10%);
+}
+
+.navLink {
+  /* border: 1px solid grey; */
+  padding: 10px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: #064c06;
+}
+
+.svg-inline--fa {
+  margin-right: 5px;
+}
+
+.nav-item-flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+}
